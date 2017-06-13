@@ -1,7 +1,7 @@
 <?php
 
-/* themes/bootstrap/templates/menu/menu-local-task.html.twig */
-class __TwigTemplate_c066c53b919b8f1d75352dc6e6b9ac4a2b8109272904a81b83ada147777ccf16 extends Twig_Template
+/* core/themes/stable/templates/views/views-view-field.html.twig */
+class __TwigTemplate_5c06ee9a1fc91cb1131d3fd2351c136169530174a79ec7dad6b30fe12d37f0db extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -15,13 +15,13 @@ class __TwigTemplate_c066c53b919b8f1d75352dc6e6b9ac4a2b8109272904a81b83ada147777
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("set" => 19);
+        $tags = array();
         $filters = array();
         $functions = array();
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
-                array('set'),
+                array(),
                 array(),
                 array()
             );
@@ -39,21 +39,13 @@ class __TwigTemplate_c066c53b919b8f1d75352dc6e6b9ac4a2b8109272904a81b83ada147777
             throw $e;
         }
 
-        // line 19
-        $context["classes"] = array(0 => ((        // line 20
-($context["is_active"] ?? null)) ? ("active") : ("")));
-        // line 22
-        echo "<li";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["attributes"] ?? null), "addClass", array(0 => ($context["classes"] ?? null)), "method"), "html", null, true));
-        echo ">";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["link"] ?? null), "html", null, true));
-        echo "</li>
-";
+        // line 21
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["output"] ?? null), "html", null, true));
     }
 
     public function getTemplateName()
     {
-        return "themes/bootstrap/templates/menu/menu-local-task.html.twig";
+        return "core/themes/stable/templates/views/views-view-field.html.twig";
     }
 
     public function isTraitable()
@@ -63,7 +55,7 @@ class __TwigTemplate_c066c53b919b8f1d75352dc6e6b9ac4a2b8109272904a81b83ada147777
 
     public function getDebugInfo()
     {
-        return array (  46 => 22,  44 => 20,  43 => 19,);
+        return array (  43 => 21,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -76,6 +68,6 @@ class __TwigTemplate_c066c53b919b8f1d75352dc6e6b9ac4a2b8109272904a81b83ada147777
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "themes/bootstrap/templates/menu/menu-local-task.html.twig", "C:\\wamp64\\www\\drupal\\themes\\bootstrap\\templates\\menu\\menu-local-task.html.twig");
+        return new Twig_Source("", "core/themes/stable/templates/views/views-view-field.html.twig", "C:\\wamp64\\www\\drupal\\core\\themes\\stable\\templates\\views\\views-view-field.html.twig");
     }
 }
